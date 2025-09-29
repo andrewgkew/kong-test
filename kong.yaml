@@ -1,0 +1,18 @@
+_format_version: "3.0"
+plugins:
+  - name: prometheus
+    config:
+      per_consumer: true
+services:
+  - name: echo-service
+    path: /
+    host: echo.kic.svc.cluster.local
+    port: 1027
+    protocol: http
+    routes:
+      - name: echo-route
+        methods:
+          - GET
+          - POST
+        paths:
+          - /echo
