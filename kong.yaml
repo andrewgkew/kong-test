@@ -1,5 +1,4 @@
 _format_version: "3.0"
-      per_consumer: true
 services:
   - name: echo-service
     path: /anything
