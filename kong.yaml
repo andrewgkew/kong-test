@@ -5,7 +5,6 @@ plugins:
       per_consumer: true
   - name: request-termination
     config:
-      status_code: 503
 services:
   - name: echo-service
     path: /anything
