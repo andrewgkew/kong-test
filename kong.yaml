@@ -6,7 +6,7 @@ plugins:
 services:
   - name: echo-service
     path: /anything
-    host: httpbin.org
+    host: httpbingo.org
     port: 443
     protocol: https
     routes:
