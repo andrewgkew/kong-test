@@ -1,6 +1,7 @@
 name: Kong Konnect Deployment
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
