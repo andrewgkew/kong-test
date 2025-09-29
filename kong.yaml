@@ -7,7 +7,7 @@ services:
   - name: echo-service
     path: /anything
     host: httpbin.org
-    port: 1027
+    port: 443
     protocol: https
     routes:
       - name: echo-route
