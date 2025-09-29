@@ -3,7 +3,6 @@ plugins:
   - name: prometheus
     config:
       per_consumer: true
-  - name: echo-service
     path: /anything
     host: httpbin.org
     port: 443
