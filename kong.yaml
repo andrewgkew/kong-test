@@ -6,7 +6,6 @@ plugins:
   - name: request-termination
     config:
       status_code: 503
-      message: '"Service is now unavailable"'
 services:
   - name: echo-service
     path: /anything
