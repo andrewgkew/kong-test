@@ -5,14 +5,13 @@ plugins:
       per_consumer: true
 services:
   - name: echo-service
-    path: /
-    host: echo.kic.svc.cluster.local
+    path: /anything
+    host: httpbin.org
     port: 1027
-    protocol: http
+    protocol: https
     routes:
       - name: echo-route
         methods:
           - GET
-          - POST
         paths:
           - /echo
