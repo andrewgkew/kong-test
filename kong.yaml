@@ -3,7 +3,6 @@ plugins:
   - name: prometheus
     config:
       per_consumer: true
-  - name: request-termination
     config:
       status_code: 503
       message: '"Service is now unavailable"'
